@@ -28,7 +28,7 @@ const Footer = () => {
           <p className="font-semibold text-gray text-xs">Copright @ 2024 Apple Inc. All rights reserved.</p>
           
           <br />
-          <p>Design: <a href="http://github.com/Theo-ijoma">Theodore Ijoma</a> </p>
+          <p>Design: <a href="http://github.com/Theo-ijoma" target='_blank'>Theodore Ijoma</a> </p>
           <div className="flex">
             {footerLinks.map((link, i) => (
               <p key={link} className="font-semibold text-gray text-xs">
